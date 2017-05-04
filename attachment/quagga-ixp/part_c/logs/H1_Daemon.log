@@ -1,0 +1,5 @@
+2016-04-13_04:41:51: H1_Daemon: STDOUT: **** The PROCESS ID for the RUNNING DAEMON is: 55  ****
+2016-04-13_04:41:51: H1_Daemon: STDOUT: Mode set to: daemonized
+2016-04-13_04:41:51: H1_Daemon: STDOUT: daemon process start...
+2016-04-13_04:44:42: H1_Daemon: STDOUT: (pid:55) DaemonClass.signal_handler(): SIGTERM (TERMinate SIGnal) received
+2016-04-13_04:44:42: H1_Daemon: STDOUT: (pid:55) DaemonClass.signal_handler()...External signal received so quitting gracefully.

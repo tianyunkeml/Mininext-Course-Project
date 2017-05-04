@@ -1,0 +1,94 @@
+2016-04-12_20:14:58: test: STDOUT: **** The PROCESS ID for the RUNNING DAEMON is: 1316  ****
+2016-04-12_20:14:58: test: STDOUT: Mode set to: daemonized
+2016-04-12_20:16:48: test: STDOUT: (pid:1316) DaemonClass.signal_handler(): SIGTERM (TERMinate SIGnal) received
+2016-04-12_20:16:48: test: STDOUT: (pid:1316) DaemonClass.signal_handler()...External signal received so quitting gracefully.
+2016-04-12_20:19:20: test: STDOUT: (pid:1316) DaemonClass.signal_handler(): SIGTERM (TERMinate SIGnal) received
+2016-04-12_20:19:20: test: STDOUT: Logging started at 2016-04-12_20:19:20 ----
+2016-04-12_20:19:20: test: STDERR: Logging started at 2016-04-12_20:19:20 ----
+2016-04-12_20:19:20: test: STDOUT: **** The PROCESS ID for the RUNNING DAEMON is: 1441  ****
+2016-04-12_20:19:20: test: STDOUT: Mode set to: daemonized
+2016-04-12_20:19:41: test: STDOUT: (pid:1441) DaemonClass.signal_handler(): SIGTERM (TERMinate SIGnal) received
+2016-04-12_20:19:41: test: STDOUT: (pid:1441) DaemonClass.signal_handler()...External signal received so quitting gracefully.
+2016-04-12_20:21:31: test: STDOUT: (pid:1441) DaemonClass.signal_handler(): SIGTERM (TERMinate SIGnal) received
+2016-04-12_20:21:31: test: STDOUT: Logging started at 2016-04-12_20:21:31 ----
+2016-04-12_20:21:31: test: STDERR: Logging started at 2016-04-12_20:21:31 ----
+2016-04-12_20:21:31: test: STDOUT: **** The PROCESS ID for the RUNNING DAEMON is: 1496  ****
+2016-04-12_20:21:31: test: STDOUT: Mode set to: daemonized
+2016-04-12_20:22:02: test: STDOUT: (pid:1496) DaemonClass.signal_handler(): SIGTERM (TERMinate SIGnal) received
+2016-04-12_20:22:02: test: STDOUT: (pid:1496) DaemonClass.signal_handler()...External signal received so quitting gracefully.
+2016-04-12_20:25:08: test: STDOUT: (pid:1496) DaemonClass.signal_handler(): SIGTERM (TERMinate SIGnal) received
+2016-04-12_20:25:08: test: STDOUT: Logging started at 2016-04-12_20:25:08 ----
+2016-04-12_20:25:08: test: STDERR: Logging started at 2016-04-12_20:25:08 ----
+2016-04-12_20:25:08: test: STDOUT: **** The PROCESS ID for the RUNNING DAEMON is: 1571  ****
+2016-04-12_20:25:08: test: STDOUT: Mode set to: daemonized
+2016-04-12_20:25:40: test: STDOUT: (pid:1571) DaemonClass.signal_handler(): SIGTERM (TERMinate SIGnal) received
+2016-04-12_20:25:40: test: STDOUT: (pid:1571) DaemonClass.signal_handler()...External signal received so quitting gracefully.
+2016-04-12_20:30:12: test: STDOUT: (pid:1571) DaemonClass.signal_handler(): SIGTERM (TERMinate SIGnal) received
+2016-04-12_20:30:12: test: STDOUT: Logging started at 2016-04-12_20:30:12 ----
+2016-04-12_20:30:12: test: STDERR: Logging started at 2016-04-12_20:30:12 ----
+2016-04-12_20:30:12: test: STDOUT: **** The PROCESS ID for the RUNNING DAEMON is: 1652  ****
+2016-04-12_20:30:12: test: STDOUT: Mode set to: daemonized
+2016-04-12_20:30:12: test: STDERR: Traceback (most recent call last):
+2016-04-12_20:30:12: test: STDERR: File "test.py", line 35, in <module>
+2016-04-12_20:30:12: test: STDERR: 
+2016-04-12_20:30:12: test: STDERR: mine.restart()
+2016-04-12_20:30:12: test: STDERR: File "/home/mininet/myfolder/quagga-ixp/part_c/daemon.py", line 340, in restart
+2016-04-12_20:30:12: test: STDERR: 
+2016-04-12_20:30:12: test: STDERR: self.run()                  # Passes processing control to the run method
+2016-04-12_20:30:12: test: STDERR: File "test.py", line 12, in run
+2016-04-12_20:30:12: test: STDERR: 
+2016-04-12_20:30:12: test: STDERR: f = open('./home/mininet/myfolder/quagga-ixp/part_c/out.txt','a')
+2016-04-12_20:30:12: test: STDERR: IOError
+2016-04-12_20:30:12: test: STDERR: :
+2016-04-12_20:30:12: test: STDERR: [Errno 2] No such file or directory: './home/mininet/myfolder/quagga-ixp/part_c/out.txt'
+2016-04-12_20:30:12: test: STDERR: 
+2016-04-12_20:31:03: test: STDOUT: Logging started at 2016-04-12_20:31:03 ----
+2016-04-12_20:31:03: test: STDERR: Logging started at 2016-04-12_20:31:03 ----
+2016-04-12_20:31:03: test: STDOUT: **** The PROCESS ID for the RUNNING DAEMON is: 1670  ****
+2016-04-12_20:31:03: test: STDOUT: Mode set to: daemonized
+2016-04-12_20:31:03: test: STDERR: Traceback (most recent call last):
+2016-04-12_20:31:03: test: STDERR: File "test.py", line 35, in <module>
+2016-04-12_20:31:03: test: STDERR: 
+2016-04-12_20:31:03: test: STDERR: mine.restart()
+2016-04-12_20:31:03: test: STDERR: File "/home/mininet/myfolder/quagga-ixp/part_c/daemon.py", line 340, in restart
+2016-04-12_20:31:03: test: STDERR: 
+2016-04-12_20:31:03: test: STDERR: self.run()                  # Passes processing control to the run method
+2016-04-12_20:31:03: test: STDERR: File "test.py", line 12, in run
+2016-04-12_20:31:03: test: STDERR: 
+2016-04-12_20:31:03: test: STDERR: f = open('./home/mininet/myfolder/quagga-ixp/part_c/out.txt','w')
+2016-04-12_20:31:03: test: STDERR: IOError
+2016-04-12_20:31:03: test: STDERR: :
+2016-04-12_20:31:03: test: STDERR: [Errno 2] No such file or directory: './home/mininet/myfolder/quagga-ixp/part_c/out.txt'
+2016-04-12_20:31:03: test: STDERR: 
+2016-04-12_20:32:10: test: STDOUT: Logging started at 2016-04-12_20:32:10 ----
+2016-04-12_20:32:10: test: STDERR: Logging started at 2016-04-12_20:32:10 ----
+2016-04-12_20:32:10: test: STDOUT: **** The PROCESS ID for the RUNNING DAEMON is: 1699  ****
+2016-04-12_20:32:10: test: STDOUT: Mode set to: daemonized
+2016-04-12_20:51:14: test: STDOUT: (pid:1699) DaemonClass.signal_handler(): SIGTERM (TERMinate SIGnal) received
+2016-04-12_20:51:14: test: STDOUT: (pid:1699) DaemonClass.signal_handler()...External signal received so quitting gracefully.
+2016-04-12_20:51:56: test: STDOUT: (pid:1699) DaemonClass.signal_handler(): SIGTERM (TERMinate SIGnal) received
+2016-04-12_20:53:13: test: STDOUT: (pid:1699) DaemonClass.signal_handler(): SIGTERM (TERMinate SIGnal) received
+2016-04-12_20:56:16: test: STDOUT: (pid:1699) DaemonClass.signal_handler(): SIGTERM (TERMinate SIGnal) received
+2016-04-12_20:56:16: test: STDOUT: Logging started at 2016-04-12_20:56:16 ----
+2016-04-12_20:56:16: test: STDERR: Logging started at 2016-04-12_20:56:16 ----
+2016-04-12_20:56:16: test: STDOUT: **** The PROCESS ID for the RUNNING DAEMON is: 2113  ****
+2016-04-12_20:56:16: test: STDOUT: Mode set to: daemonized
+2016-04-12_20:56:32: test: STDOUT: (pid:2113) DaemonClass.signal_handler(): SIGTERM (TERMinate SIGnal) received
+2016-04-12_20:56:32: test: STDOUT: (pid:2113) DaemonClass.signal_handler()...External signal received so quitting gracefully.
+2016-04-12_21:04:36: test: STDOUT: (pid:2113) DaemonClass.signal_handler(): SIGTERM (TERMinate SIGnal) received
+2016-04-12_21:04:42: test: STDOUT: (pid:2113) DaemonClass.signal_handler(): SIGTERM (TERMinate SIGnal) received
+2016-04-12_21:05:55: test: STDOUT: (pid:2113) DaemonClass.signal_handler(): SIGTERM (TERMinate SIGnal) received
+2016-04-12_21:06:29: test: STDOUT: Logging started at 2016-04-12_21:06:29 ----
+2016-04-12_21:06:29: test: STDERR: Logging started at 2016-04-12_21:06:29 ----
+2016-04-12_21:06:29: test: STDOUT: **** The PROCESS ID for the RUNNING DAEMON is: 2275  ****
+2016-04-12_21:06:29: test: STDOUT: Mode set to: daemonized
+2016-04-12_21:06:36: test: STDOUT: (pid:2275) DaemonClass.signal_handler(): SIGTERM (TERMinate SIGnal) received
+2016-04-12_21:06:36: test: STDOUT: (pid:2275) DaemonClass.signal_handler()...External signal received so quitting gracefully.
+2016-04-12_21:06:48: test: STDOUT: (pid:2275) DaemonClass.signal_handler(): SIGTERM (TERMinate SIGnal) received
+2016-04-12_21:14:05: test: STDOUT: (pid:2275) DaemonClass.signal_handler(): SIGTERM (TERMinate SIGnal) received
+2016-04-12_21:24:59: test: STDOUT: Logging started at 2016-04-12_21:24:59 ----
+2016-04-12_21:24:59: test: STDERR: Logging started at 2016-04-12_21:24:59 ----
+2016-04-12_21:24:59: test: STDOUT: **** The PROCESS ID for the RUNNING DAEMON is: 2589  ****
+2016-04-12_21:24:59: test: STDOUT: Mode set to: daemonized
+2016-04-12_21:25:38: test: STDOUT: (pid:2589) DaemonClass.signal_handler(): SIGTERM (TERMinate SIGnal) received
+2016-04-12_21:25:38: test: STDOUT: (pid:2589) DaemonClass.signal_handler()...External signal received so quitting gracefully.
